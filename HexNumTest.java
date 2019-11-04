@@ -1,8 +1,5 @@
 import junit.framework.TestCase;
 
-import static junit.framework.Assert.assertEquals;
-//import static org.junit.jupiter.api.Assertions.*;
-
 public class HexNumTest extends TestCase {
 
     //private HexNum hex_num = new HexNum(100);
