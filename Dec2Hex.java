@@ -8,6 +8,11 @@ public class Dec2Hex
 
     public static void main(String args[]) {
 
+	if(args.length == 0)
+{
+	System.err.println("No Input argument");
+System.exit(1);
+}
         if (args.length > 0) {
             try {
                 Arg1 = Integer.parseInt(args[0]);
